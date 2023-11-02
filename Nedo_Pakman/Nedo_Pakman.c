@@ -5,7 +5,7 @@
 #include <SDL.h>
 #include <stdio.h>
 
-int main() {
+int main(int argc, char** argv) {
 	SDL_Window* window = NULL;
 	SDL_Surface* window_surface = NULL;
 	SDL_Init(SDL_INIT_VIDEO);
